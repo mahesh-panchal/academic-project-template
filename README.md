@@ -22,3 +22,4 @@ is a better recipe to succeed.
 - [Ten simple rules for biologists learning to program](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005871)
 - [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
 - [Good enough practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
+- [Streamlining data-intensive biology with workflow systems](https://academic.oup.com/gigascience/article/10/1/giaa140/6092773)
