@@ -13,6 +13,19 @@ be daunting and overwhelming and can hinder your adoption of reproducible practi
 Building comfort with tools and practices over time and maintaing a reasonable level of challenge,
 is a better recipe to succeed.
 
+### 1. Decide on a folder structure
+
+Before dumping all your files in a copy of this template, decide on a folder structure you want to
+maintain. Keeping it as simple as possible will help maintain it over time.
+
+This repository implements a suggestion:
+```
+/
+|- analyses/  // Contains scripts that launch your workflows. Codify everything!
+|- docs/      // Website, Slides, Reports, Articles, Thesis that use literate programming for reproducibility.
+|- workflows/ // Workflows for large scale analyses, often executed on a HPC or other non-local system.
+```
+
 ### Some literature
 
 - [Folder structure, file names, and versioning](https://snd.se/en/manage-data/organise/folder-structure-filenames-versioning)
