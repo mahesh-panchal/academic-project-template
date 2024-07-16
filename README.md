@@ -16,15 +16,34 @@ is a better recipe to succeed.
 ### 1. Decide on a folder structure
 
 Before dumping all your files in a copy of this template, decide on a folder structure you want to
-maintain. Keeping it as simple as possible will help maintain it over time.
+maintain. Keeping it as simple as possible will help maintain it over time, and provide you with 
+some flexibility.
 
-This repository implements a suggestion:
+This repository implements the following suggestion:
 ```
 /
 |- analyses/  // Contains scripts that launch your workflows. Codify everything!
+|- data/      // A folder to organise your data.
 |- docs/      // Website, Slides, Reports, Articles, Thesis that use literate programming for reproducibility.
 |- workflows/ // Workflows for large scale analyses, often executed on a HPC or other non-local system.
 ```
+
+See the README.md's in each directory for further description of the folder's purpose.
+
+### 2. Implement a template
+
+Github can be used to make a template. The idea is that you start a new project from this template, 
+and it provides you with the folder structure you want already set up. You can populate it with
+useful scripts and templates that can help you work more effectively, and always have them ready 
+in your projects. It's a good idea to have README in each folder too to tell future you how you're
+using these folders.
+
+See [Creating a template repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
+on Github for more information on how to set one up.
+
+> [!Note]
+> Setting up a template is there to help enforce your folder structure usage. Integrating `git` into
+> your process for version control is another step.
 
 ### Some literature
 
