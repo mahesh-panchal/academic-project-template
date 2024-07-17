@@ -13,6 +13,10 @@ be daunting and overwhelming and can hinder your adoption of reproducible practi
 Building comfort with tools and practices over time and maintaing a reasonable level of challenge,
 is a better recipe to succeed.
 
+There are two key tenets:
+- Codify everything.
+- Document everything else.
+
 ### 1. Decide on a folder structure
 
 Before dumping all your files in a copy of this template, decide on a folder structure you want to
